@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework1_trial_Layout</string>
+    <string name="input_type1">Введите текст:     </string>
+    <string name="button1">Команда 1</string>
+    <string name="button2">Команда 2</string>
+    <string name="button3">Команда 3</string>
+
+</resources>
