@@ -42,47 +42,83 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="12dp"
-            android:text="@string/button1" />
+            android:text="@string/button1"
+            android:textSize="12dp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="12dp"
-            android:text="@string/button2" />
+            android:text="@string/button2"
+            android:textSize="12dp" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="12dp"
-            android:text="@string/button3"/>
+            android:text="@string/button3"
+            android:textSize="12dp" />
 
     </LinearLayout>
 
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Параметр А"
-        android:textStyle="bold"
-        android:textSize="16dp"
         android:layout_gravity="center"
+        android:text="Параметр А"
+        android:textSize="16dp"
+        android:textStyle="bold"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
+
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Параметр B"
-        android:textStyle="bold"
-        android:textSize="16dp"
         android:layout_gravity="center"
+        android:text="Параметр B"
+        android:textSize="16dp"
+        android:textStyle="bold"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Маркер1" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Маркер2" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Маркер3" />
+
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ToggleButton>
 
 
 </LinearLayout>
